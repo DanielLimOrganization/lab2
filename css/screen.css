@@ -18,9 +18,9 @@ input{
 
 input[type=submit] {
   text-align: center;
-  width: 50%;
   background-color: darkgrey;
   color: white;
+  width: 50%;
   padding: 15px 20px;
   border-radius: 4px;
   cursor: pointer;
@@ -35,25 +35,24 @@ input[type=email], select {
   padding: 5px 5px;
   margin: 5px 5px;
   display: inline-block;
-  border: grey;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 input[type=date]{
   width:150px;
-  display: inline-block;
-  margin: 5px 5px;
   padding: 5px 5px;
+  margin: 5px 5px;
+  display: inline-block;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 input[type=tel]{
   width: 120px;
-  display: inline-block;
-  margin: 5px 0;
   padding: 5px 5px;
+  margin: 5px 0;
+  display: inline-block;
   border-radius: 4px;
   box-sizing: border-box;
 }
