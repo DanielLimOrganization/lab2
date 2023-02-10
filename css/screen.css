@@ -40,6 +40,15 @@ input[type=email], select {
   box-sizing: border-box;
 }
 
+input[type=date]{
+  width:150px;
+  display: inline-block;
+  margin: 5px 0px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 input[type=tel]{
   width: 120px;
   display: inline-block;
@@ -49,27 +58,21 @@ input[type=tel]{
   box-sizing: border-box;
 }
 
-input[type=date]{
-  width:150px;
-  display: inline-block;
-  margin: 5px 5px;
-  padding: 5px 5px;
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
 @media only screen and (max-width: 720px) {
+  h1{
+    font-size: 30px;
+  }
   body{
-      font-size: 15px;
-      max-width: 100%;
+    font-size: 15px;
+    max-width: 100%;
   }
   input[type=email], select{
-  width: 50%
-  }
-  input[type=tel], select{
-  width: 50%
+    width: 50%
   }
   input[type=date], select{
-  width: 50%
+    width: 50%
+  }
+  input[type=tel], select{
+    width: 50%
   }
 }
